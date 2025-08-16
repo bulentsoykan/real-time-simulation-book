@@ -26,9 +26,10 @@ theme:
     - content.code.annotate # Allows for line-by-line code explanations
   # Footer configuration
   footer:
-    - name: My Website
-      link: https://bulensoykan.com
-      copyright: '&copy; 2025 Bulent Soykan'
+    links: 
+      - name: My Website
+        link: https://bulensoykan.com
+    copyright: '&copy; 2025 Bulent Soykan'
 
   # Color palette with a light/dark mode toggle
   palette:
