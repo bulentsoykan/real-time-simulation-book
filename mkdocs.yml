@@ -68,7 +68,6 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite # Highlight code within text: `#!python var = 1`
-  - pymdownx.attr_list 
   - pymdownx.arithmatex: # For LaTeX mathematical notation
       generic: true
   - toc: # Table of Contents generation
