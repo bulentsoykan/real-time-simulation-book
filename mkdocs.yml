@@ -90,11 +90,6 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # ----------------------------------------------------------------------------
-# Navigation Structure (The Table of Contents)
-# This directly maps to your 15-chapter textbook outline.
-# The file paths assume you create subdirectories inside your 'docs' folder
-# for each part to keep the project organized.
-# ----------------------------------------------------------------------------
 nav:
   - 'Home': 'index.md'
   - 'Part I: Foundations of Digital Twins and Simulation':
@@ -118,6 +113,6 @@ nav:
     - 'Chapter 14: Architectures and Platforms': 'part5/chapter14.md'
     - 'Chapter 15: The Future of Simulation-Powered DTs': 'part5/chapter15.md'
   - 'Appendix':
-    - 'Course Syllabus & Outline': 'appendix/syllabus.md' 
+    - 'Course Syllabus & Outline': 'appendix/syllabus.md'
     - 'Glossary': 'appendix/glossary.md'
     - 'Software Setup Guide': 'appendix/setup.md'
