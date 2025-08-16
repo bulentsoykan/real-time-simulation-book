@@ -1381,12 +1381,14 @@
 <p>This relationship can be visualized as a continuous loop:</p>
 <p>```mermaid
 graph TD
+    %% Physical and Virtual spaces
     A["Physical Space (e.g., Wind Turbine)"] --&gt;|Sensor Data (IoT)| B["Data Link (MQTT, 5G, etc.)"]
     B --&gt;|Real-Time State| C["Virtual Space (Simulation Model)"]
-    C --&gt;|"What-if" Analysis &amp; Optimization| D["Insights &amp; Predictions"]
+    C --&gt;|"What-if Analysis &amp; Optimization"| D["Insights &amp; Predictions"]
     D --&gt;|Control Commands &amp; Decisions| B
     B --&gt;|Actuation| A</p>
-<div class="language-text highlight"><pre><span></span><code>subgraph &quot;Real World&quot;
+<div class="language-text highlight"><pre><span></span><code>%% Subgraphs for clarity
+subgraph &quot;Real World&quot;
     A
 end
 subgraph &quot;Digital World&quot;
