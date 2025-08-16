@@ -36,11 +36,11 @@ This relationship can be visualized as a continuous loop:
 
 ```mermaid
 graph TD
-    A[Physical Space <br> (e.g., Wind Turbine)] -- Sensor Data (IoT) --> B{Data Link <br> (MQTT, 5G, etc.)};
-    B -- Real-Time State --> C[Virtual Space <br> (Simulation Model)];
-    C -- "What-if" Analysis & Optimization --> D[Insights & Predictions];
-    D -- Control Commands & Decisions --> B;
-    B -- Actuation --> A;
+    A["Physical Space (e.g., Wind Turbine)"] -->|Sensor Data (IoT)| B["Data Link (MQTT, 5G, etc.)"]
+    B -->|Real-Time State| C["Virtual Space (Simulation Model)"]
+    C -->|"What-if" Analysis & Optimization| D["Insights & Predictions"]
+    D -->|Control Commands & Decisions| B
+    B -->|Actuation| A
 
     subgraph "Real World"
         A
@@ -49,6 +49,7 @@ graph TD
         C
         D
     end
+
 
 !!! note "The Importance of the Two-Way Link"
     The data flow is not just from physical to virtual. A mature Digital Twin uses insights gained from the virtual model to send commands back to the physical asset, enabling remote control, optimization, and even autonomous operation.
