@@ -1399,14 +1399,6 @@
 <li><strong>Compare:</strong> An automated monitoring component compares the twin's predicted output with the actual output measured by the sensor on the physical asset.</li>
 <li><strong>Track Error:</strong> The difference between the prediction and the reality is the <strong>model error</strong> or <strong>residual</strong>. This error is tracked over time.</li>
 </ol>
-<p><em>-- VISUAL AID DESCRIPTION --</em>
-<em>A flowchart diagram.
-1. A box labeled "Real Inputs (e.g., Voltage)" has two arrows pointing out.
-2. One arrow points to "Physical Asset", which then points to "Real Sensor Output (e.g., Speed)".
-3. The other arrow points to "Digital Twin Model", which then points to "Predicted Output (e.g., Speed)".
-4. Both "Real Sensor Output" and "Predicted Output" point into a circle labeled "Compare".
-5. The "Compare" circle points to a box labeled "Model Error Signal". This error signal is plotted on a control chart over time.</em>
-<em>-- END VISUAL AID DESCRIPTION --</em></p>
 <p>If the model error remains small and random (within an acceptable tolerance band), we can be confident that the twin is well-calibrated. If the error starts to show a systematic drift or bias, it's a clear signal that the model no longer accurately represents reality. This is called <strong>model drift</strong>.</p>
 <h2 id="113-automated-recalibration-healing-the-drifting-twin">11.3 Automated Recalibration: Healing the Drifting Twin<a class="headerlink" href="#113-automated-recalibration-healing-the-drifting-twin" title="Permanent link">&para;</a></h2>
 <p>When model drift is detected, the twin must be able to "heal" itself. This is done through <strong>automated recalibration</strong>, where the incoming data stream is used to automatically update the model's internal parameters to bring it back in line with reality. This process is also known as <strong>data assimilation</strong> or <strong>model tuning</strong>.</p>

@@ -1462,13 +1462,6 @@
 <li><strong>Predict:</strong> The simulation model runs forward one time step (<code>Δt</code>) to predict the system's next state. Due to model inaccuracies, this prediction has some uncertainty.</li>
 <li><strong>Update:</strong> A new sensor measurement arrives. This measurement also has uncertainty (sensor noise). The Kalman Filter mathematically combines the uncertain prediction with the uncertain measurement, giving more weight to the one with less uncertainty, to produce a new, <em>optimal</em> state estimate. This new estimate has <em>less uncertainty</em> than either the prediction or the measurement alone.</li>
 </ol>
-<p><em>-- VISUAL AID DESCRIPTION --</em>
-<em>A cyclical diagram.
-1. A box "State Estimate at time t" has an arrow pointing to a box "Predict Next State (Using Model)".
-2. The "Predict Next State" box has an arrow pointing to a box "Update with New Measurement (From Sensor)".
-3. The "Update" box has an arrow pointing back to a new box "Optimal State Estimate at time t+1".
-This illustrates the continuous predict-update cycle.</em>
-<em>-- END VISUAL AID DESCRIPTION --</em></p>
 <p>For a Digital Twin, the Kalman Filter provides a mathematically rigorous way to keep the model's state locked onto reality, even in the presence of noise and uncertainty. It is the ultimate synchronization mechanism.</p>
 <hr />
 <h3 id="lab-preview-closing-the-loop-on-the-dc-motor">Lab Preview: Closing the Loop on the DC Motor<a class="headerlink" href="#lab-preview-closing-the-loop-on-the-dc-motor" title="Permanent link">&para;</a></h3>
