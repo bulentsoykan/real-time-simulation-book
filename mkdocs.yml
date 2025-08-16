@@ -48,8 +48,8 @@ theme:
     code: 'Roboto Mono'
 
   # Logo and favicon
-  favicon: 'assets/favicon.png' # Add your favicon to docs/assets/
-  logo: 'assets/logo.svg' # Add your logo to docs/assets/
+  favicon: 'assets/favicon.png'
+  logo: 'assets/logo.svg' 
 
 # ----------------------------------------------------------------------------
 # Markdown Extensions for Technical Content
