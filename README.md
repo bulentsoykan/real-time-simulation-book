@@ -1,6 +1,6 @@
 # Real-Time Simulation Modeling for Digital Twins: The Online Textbook
 
-[![GitHub Pages](https://github.com/bulentsoykan/real-time-simulation-book/actions/workflows/ci.yml/badge.svg)](https://github.com/bulentsoykan/real-time-simulation-book/actions/workflows/ci.yml)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains all the source files for the online textbook, "Real-Time Simulation Modeling for Digital Twins." This book serves as the primary course material for graduate-level studies in advanced simulation and digital twin development.
