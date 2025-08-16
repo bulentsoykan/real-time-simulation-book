@@ -2,7 +2,7 @@
 
 Welcome to the online textbook for the graduate course on Real-Time Simulation Modeling for Digital Twins.
 
-![Course Banner](assets/banner.png)
+<img src="assets/banner.png" alt="Course Banner" style="width:100%;">
 
 ---
 
@@ -41,6 +41,7 @@ We begin by establishing the "why" and "what." We will define the Digital Twin p
 
 ### **Part II: Core Simulation Modeling Techniques**
 This is the methodological heart of the course. We will take a deep dive into the four workhorse paradigms of simulation, with each chapter dedicated to a single approach:
+
 *   **Chapter 4:** Discrete-Event Simulation (DES) for twinning processes.
 *   **Chapter 5:** Agent-Based Modeling (ABM) for twinning complex adaptive systems.
 *   **Chapter 6:** System Dynamics (SD) for twinning strategic feedback systems.
