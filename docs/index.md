@@ -1,4 +1,4 @@
-<img src="assets/banner.png" alt="Course Banner" style="width:100%;">
+<img src="assets/banner.jpg" alt="Course Banner" style="width:100%;">
 
 # Real-Time Simulation Modeling for Digital Twins
 
