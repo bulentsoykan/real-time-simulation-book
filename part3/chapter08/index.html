@@ -1422,12 +1422,6 @@
 <p>In a Pub/Sub system, clients don't communicate directly. Instead, they all connect to a central message broker.
 *   <strong>Publishers:</strong> Clients that send data (e.g., sensors). They publish messages to specific "topics" on the broker without knowing or caring who, if anyone, is listening.
 *   <strong>Subscribers:</strong> Clients that receive data (e.g., our Digital Twin simulation). They subscribe to the topics they are interested in and the broker automatically forwards them any message published to that topic.</p>
-<p><em>-- VISUAL AID DESCRIPTION --</em>
-<em>A diagram with a central box labeled "Message Broker".
-On the left, there are three boxes: "Sensor 1", "Sensor 2", "Sensor 3". Arrows point from them </em>to<em> the Broker. These arrows are labeled "Publish".
-On the right, there are two boxes: "Digital Twin" and "Dashboard". Arrows point </em>from<em> the Broker to them. These arrows are labeled "Subscribe".
-This shows the decoupled nature of the communication.</em>
-<em>-- END VISUAL AID DESCRIPTION --</em></p>
 <p>This decoupled architecture is highly scalable and flexible. You can add a hundred new sensors or ten new applications (subscribers) without having to reconfigure any of the existing components.</p>
 <h2 id="83-mqtt-the-lingua-franca-of-iot">8.3 MQTT: The Lingua Franca of IoT<a class="headerlink" href="#83-mqtt-the-lingua-franca-of-iot" title="Permanent link">&para;</a></h2>
 <p>While there are many Pub/Sub protocols, the de facto standard for IoT is <strong>MQTT (Message Queuing Telemetry Transport)</strong>. It was designed to be:</p>

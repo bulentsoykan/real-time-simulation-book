@@ -1461,9 +1461,6 @@
 <p>To make the problem solvable, we often use <strong>lumped parameter modeling</strong>. Instead of modeling the temperature at every single point inside a motor (a complex partial differential equation problem), we "lump" it into a single variable, <code>T_motor</code>, representing the average temperature of the entire component. This assumes the temperature is uniform throughout the component, which is a powerful and often valid simplification.</p>
 <h2 id="73-the-language-of-change-ordinary-differential-equations-odes">7.3 The Language of Change: Ordinary Differential Equations (ODEs)<a class="headerlink" href="#73-the-language-of-change-ordinary-differential-equations-odes" title="Permanent link">&para;</a></h2>
 <p>Let's model a simple mechanical system: a mass (<code>m</code>) attached to a spring (<code>k</code>) and a damper (<code>b</code>), subjected to an external force <code>F(t)</code>.</p>
-<p><em>-- VISUAL AID DESCRIPTION --</em>
-<em>A simple diagram showing a block (labeled 'm') on a surface. A spring (zigzag line, labeled 'k') and a damper (piston-in-cylinder, labeled 'b') connect the block to a fixed wall. An arrow labeled 'F(t)' pushes on the block.</em>
-<em>-- END VISUAL AID DESCRIPTION --</em></p>
 <p>From Newton's Second Law (<code>ΣF = ma</code>), we can write the equation of motion. The sum of forces (external force, spring force, damping force) equals mass times acceleration:</p>
 <p><code>F(t) - kx - bẋ = mẍ</code></p>
 <p>Where:
