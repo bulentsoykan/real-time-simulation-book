@@ -2,11 +2,7 @@
 
 Welcome to the online textbook for the graduate course on Real-Time Simulation Modeling for Digital Twins.
 
-![Course Banner](assets/banner.png){ width="100%" }
-
-
-# Real-Time Simulation Modeling for Digital Twins
-### A Methodological Approach
+![Course Banner](assets/banner.png)
 
 ---
 
