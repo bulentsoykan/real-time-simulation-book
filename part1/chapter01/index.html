@@ -347,7 +347,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../appendix/glossary/" class="md-tabs__link">
+        <a href="../../appendix/syllabus/" class="md-tabs__link">
           
   
   
@@ -1189,6 +1189,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../appendix/syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course Syllabus & Outline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../appendix/glossary/" class="md-nav__link">
         
   
@@ -1378,24 +1401,6 @@
 <li><strong>Virtual Space:</strong> A highly detailed, multi-physics, and probabilistic simulation model of the physical counterpart. <strong>This is the core of the Digital Twin and the focus of this course.</strong> It is not just a 3D CAD drawing; it is a dynamic model that understands the physics, logic, and behaviors of the physical system.</li>
 <li><strong>The Data Link (The "Twining"):</strong> The automated flow of data and information that connects the Physical and Virtual spaces. This link is the defining feature of a true Digital Twin.</li>
 </ol>
-<p>This relationship can be visualized as a continuous loop:</p>
-<p>```mermaid
-graph TD
-    %% Physical and Virtual spaces
-    A["Physical Space (e.g., Wind Turbine)"] --&gt;|Sensor Data (IoT)| B["Data Link (MQTT, 5G, etc.)"]
-    B --&gt;|Real-Time State| C["Virtual Space (Simulation Model)"]
-    C --&gt;|"What-if Analysis &amp; Optimization"| D["Insights &amp; Predictions"]
-    D --&gt;|Control Commands &amp; Decisions| B
-    B --&gt;|Actuation| A</p>
-<div class="language-text highlight"><pre><span></span><code>%% Subgraphs for clarity
-subgraph &quot;Real World&quot;
-    A
-end
-subgraph &quot;Digital World&quot;
-    C
-    D
-end
-</code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">The Importance of the Two-Way Link</p>
 <p>The data flow is not just from physical to virtual. A mature Digital Twin uses insights gained from the virtual model to send commands back to the physical asset, enabling remote control, optimization, and even autonomous operation.</p>
