@@ -37,14 +37,7 @@ This is the "closing the loop" concept from Chapter 9, formalized as a continuou
 3.  **Compare:** An automated monitoring component compares the twin's predicted output with the actual output measured by the sensor on the physical asset.
 4.  **Track Error:** The difference between the prediction and the reality is the **model error** or **residual**. This error is tracked over time.
 
-*-- VISUAL AID DESCRIPTION --*
-*A flowchart diagram.
-1. A box labeled "Real Inputs (e.g., Voltage)" has two arrows pointing out.
-2. One arrow points to "Physical Asset", which then points to "Real Sensor Output (e.g., Speed)".
-3. The other arrow points to "Digital Twin Model", which then points to "Predicted Output (e.g., Speed)".
-4. Both "Real Sensor Output" and "Predicted Output" point into a circle labeled "Compare".
-5. The "Compare" circle points to a box labeled "Model Error Signal". This error signal is plotted on a control chart over time.*
-*-- END VISUAL AID DESCRIPTION --*
+
 
 If the model error remains small and random (within an acceptable tolerance band), we can be confident that the twin is well-calibrated. If the error starts to show a systematic drift or bias, it's a clear signal that the model no longer accurately represents reality. This is called **model drift**.
 

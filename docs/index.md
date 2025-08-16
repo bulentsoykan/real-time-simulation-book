@@ -34,7 +34,6 @@ This book is designed to be a living document. We will follow its structure clos
 
 This book is organized into five distinct parts, each building upon the last to take you from foundational theory to advanced, real-world deployment.
 
-[Find the detailed table of contents in the navigation pane on the left.]
 
 ### **Part I: Foundations of Digital Twins and Simulation**
 We begin by establishing the "why" and "what." We will define the Digital Twin paradigm, differentiate it from its predecessors, and establish simulation as its indispensable analytical engine. We'll conclude with a high-level survey of the core modeling methodologies that we will master.

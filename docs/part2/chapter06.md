@@ -75,12 +75,7 @@ A CLD is a great thinking tool, but it's not a simulation. To create a quantitat
 
 *   **Auxiliary Variables & Constants (Text):** These hold calculations, constants, and the connections from our CLD. The logic that determines the rate of a flow resides here.
 
-*-- VISUAL AID DESCRIPTION --*
-*A diagram showing a rectangle labeled "Workforce" (the stock).
-An arrow with a valve symbol, labeled "Hiring Rate", points from a cloud into the "Workforce" rectangle.
-Another arrow with a valve symbol, labeled "Quit Rate", points from the "Workforce" rectangle into a cloud.
-This visually represents the equation: `Workforce(t) = ∫[Hiring Rate(t) - Quit Rate(t)] dt + Workforce(t0)`.*
-*-- END VISUAL AID DESCRIPTION --*
+
 
 The key insight of SD is that **behavior is a consequence of the stock-and-flow structure**. You can only change the behavior of the system by influencing the rates of the flows.
 

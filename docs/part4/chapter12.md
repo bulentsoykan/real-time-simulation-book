@@ -39,13 +39,7 @@ The predictive analysis workflow looks like this:
 4.  **Run As-Fast-As-Possible (AFAP):** The clone is disconnected from the real-time data feed. Its clock is switched to AFAP mode. It is then fed a set of *assumptions* about the future (e.g., a demand forecast, a proposed work schedule).
 5.  **Analyze and Dispose:** The clone runs the scenario to its conclusion (e.g., simulating the next 24 hours in just a few seconds). It logs the results and key performance indicators (KPIs). Once the analysis is complete, the clone is destroyed. The base twin remains untouched and continues to mirror reality.
 
-*-- VISUAL AID DESCRIPTION --*
-*A timeline diagram.
-A solid line labeled "Base Twin (Real-Time Paced)" moves from left to right. It is shown mirroring a "Physical Asset" timeline below it.
-At a point labeled "t = Now", a dotted line branches off upwards. This line is labeled "Clone Twin (AFAP)".
-The Clone Twin's timeline is compressed, showing it reaching "t = Now + 24 hours" in a much shorter space.
-The Base Twin's line continues along at its normal pace. This visually distinguishes the two execution modes.*
-*-- END VISUAL AID DESCRIPTION --*
+
 
 ## 12.3 Designing and Managing Scenarios
 

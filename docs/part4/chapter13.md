@@ -77,14 +77,7 @@ Once the agent has learned a robust and effective policy inside the Digital Twin
 
 Once we have discovered an optimal strategy—either a set of parameters from an optimizer or a dynamic policy from an RL agent—the final step is to implement it. This "closes the loop" between the digital and physical worlds, enabling the Digital Twin to not just advise, but to actively control and improve the real system.
 
-*-- VISUAL AID DESCRIPTION --*
-*A diagram showing the full prescriptive analytics loop.
-1. "Physical Asset" sends data to the "Digital Twin".
-2. The "Digital Twin" is used as an environment by an "Optimization / RL Engine".
-3. The "Optimization / RL Engine" produces an "Optimal Policy / Control Strategy".
-4. The "Optimal Policy" is deployed to a "Controller".
-5. The "Controller" sends commands (Actuation) back to the "Physical Asset".*
-*-- END VISUAL AID DESCRIPTION --*
+
 
 This closed-loop control represents the highest level of maturity for a Digital Twin, transforming it from a passive mirror into an active and intelligent partner in the system's operation.
 

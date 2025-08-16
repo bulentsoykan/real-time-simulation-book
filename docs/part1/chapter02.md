@@ -79,13 +79,7 @@ Building a higher-fidelity model comes with significant costs:
 
 The key is to select the **appropriate level of fidelity** for the decision at hand.
 
-*-- VISUAL AID DESCRIPTION --*
-*Imagine a 2x2 graph. The X-axis is labeled "Computational Cost / Complexity" (from Low to High). The Y-axis is labeled "Predictive Accuracy / Usefulness".*
-*- In the **bottom-left quadrant**: Low Cost, Low Accuracy. This is a "Back-of-the-Envelope" calculation. Quick but not reliable.*
-*- In the **top-left quadrant**: Low Cost, High Accuracy. This is the **"Ideal Model"**. It is a powerful abstraction that captures the essential dynamics of the system simply.*
-*- In the **bottom-right quadrant**: High Cost, Low Accuracy. This is the **"Worst Case"**. A complex, slow model that is wrong.*
-*- In the **top-right quadrant**: High Cost, High Accuracy. This is the **"High-Fidelity / Brute Force"** model. It may be very accurate but too slow or complex for real-time decisions. The goal of a good modeler is often to move from this quadrant to the "Ideal Model" quadrant through clever abstraction.*
-*-- END VISUAL AID DESCRIPTION --*
+
 
 ## 2.5 Ensuring Trust: The Simulation Lifecycle and V&V
 

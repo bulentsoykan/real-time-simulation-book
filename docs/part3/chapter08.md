@@ -38,12 +38,6 @@ In a Pub/Sub system, clients don't communicate directly. Instead, they all conne
 *   **Publishers:** Clients that send data (e.g., sensors). They publish messages to specific "topics" on the broker without knowing or caring who, if anyone, is listening.
 *   **Subscribers:** Clients that receive data (e.g., our Digital Twin simulation). They subscribe to the topics they are interested in and the broker automatically forwards them any message published to that topic.
 
-*-- VISUAL AID DESCRIPTION --*
-*A diagram with a central box labeled "Message Broker".
-On the left, there are three boxes: "Sensor 1", "Sensor 2", "Sensor 3". Arrows point from them *to* the Broker. These arrows are labeled "Publish".
-On the right, there are two boxes: "Digital Twin" and "Dashboard". Arrows point *from* the Broker to them. These arrows are labeled "Subscribe".
-This shows the decoupled nature of the communication.*
-*-- END VISUAL AID DESCRIPTION --*
 
 This decoupled architecture is highly scalable and flexible. You can add a hundred new sensors or ten new applications (subscribers) without having to reconfigure any of the existing components.
 

@@ -45,17 +45,7 @@ This model highlights that a deployed Digital Twin is not just a model; it's an 
 
 For any complex, scalable system, the modern architectural pattern of choice is a **cloud-based microservices architecture**.
 
-*-- VISUAL AID DESCRIPTION --*
-*A high-level architectural diagram.
-On the left, "Physical Assets" with sensors connect via an "IoT Gateway" to the cloud boundary.
-Inside the cloud boundary:
-- An "IoT Hub / MQTT Broker" acts as the entry point for data.
-- The data flows into a "Streaming Data Processor" (for real-time filtering/aggregation) and also into a "Time-Series Database" (for long-term storage).
-- A central box is labeled "Digital Twin Core Service". This service manages the "live" twin.
-- Several other boxes, labeled as microservices, surround the core: "Simulation Service" (for running AFAP clones), "Optimization Service", "Data Analytics Service", "API Gateway".
-- The API Gateway is the single point of entry for "End-User Applications" (like dashboards and mobile apps) on the right.
-All these services are shown running inside a larger box labeled "Kubernetes Cluster".*
-*-- END VISUAL AID DESCRIPTION --*
+
 
 Let's break down the key concepts in this architecture.
 

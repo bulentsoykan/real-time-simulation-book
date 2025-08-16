@@ -38,9 +38,6 @@ To make the problem solvable, we often use **lumped parameter modeling**. Instea
 
 Let's model a simple mechanical system: a mass (`m`) attached to a spring (`k`) and a damper (`b`), subjected to an external force `F(t)`.
 
-*-- VISUAL AID DESCRIPTION --*
-*A simple diagram showing a block (labeled 'm') on a surface. A spring (zigzag line, labeled 'k') and a damper (piston-in-cylinder, labeled 'b') connect the block to a fixed wall. An arrow labeled 'F(t)' pushes on the block.*
-*-- END VISUAL AID DESCRIPTION --*
 
 From Newton's Second Law (`ΣF = ma`), we can write the equation of motion. The sum of forces (external force, spring force, damping force) equals mass times acceleration:
 

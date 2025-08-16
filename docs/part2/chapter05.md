@@ -21,6 +21,7 @@ By the end of this chapter, you will be able to:
 Discrete-Event Simulation is powerful for modeling well-defined processes. But what about systems where the overall behavior isn't defined by a rigid flowchart? What about systems where behavior arises from the choices, interactions, and adaptations of a crowd of individuals?
 
 Consider these examples:
+
 *   The formation of traffic jams on a highway.
 *   The spread of a rumor on social media.
 *   The efficiency of a team of warehouse robots.

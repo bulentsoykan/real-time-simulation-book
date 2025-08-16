@@ -88,13 +88,6 @@ The Kalman Filter operates in a two-step loop:
 1.  **Predict:** The simulation model runs forward one time step (`Δt`) to predict the system's next state. Due to model inaccuracies, this prediction has some uncertainty.
 2.  **Update:** A new sensor measurement arrives. This measurement also has uncertainty (sensor noise). The Kalman Filter mathematically combines the uncertain prediction with the uncertain measurement, giving more weight to the one with less uncertainty, to produce a new, *optimal* state estimate. This new estimate has *less uncertainty* than either the prediction or the measurement alone.
 
-*-- VISUAL AID DESCRIPTION --*
-*A cyclical diagram.
-1. A box "State Estimate at time t" has an arrow pointing to a box "Predict Next State (Using Model)".
-2. The "Predict Next State" box has an arrow pointing to a box "Update with New Measurement (From Sensor)".
-3. The "Update" box has an arrow pointing back to a new box "Optimal State Estimate at time t+1".
-This illustrates the continuous predict-update cycle.*
-*-- END VISUAL AID DESCRIPTION --*
 
 For a Digital Twin, the Kalman Filter provides a mathematically rigorous way to keep the model's state locked onto reality, even in the presence of noise and uncertainty. It is the ultimate synchronization mechanism.
 
