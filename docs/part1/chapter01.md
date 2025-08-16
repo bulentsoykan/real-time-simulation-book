@@ -32,26 +32,6 @@ The term "Digital Twin" was officially coined by Dr. Michael Grieves in a 2002 p
 2.  **Virtual Space:** A highly detailed, multi-physics, and probabilistic simulation model of the physical counterpart. **This is the core of the Digital Twin and the focus of this course.** It is not just a 3D CAD drawing; it is a dynamic model that understands the physics, logic, and behaviors of the physical system.
 3.  **The Data Link (The "Twining"):** The automated flow of data and information that connects the Physical and Virtual spaces. This link is the defining feature of a true Digital Twin.
 
-This relationship can be visualized as a continuous loop:
-
-```mermaid
-graph TD
-    %% Physical and Virtual spaces
-    A["Physical Space (e.g., Wind Turbine)"] -->|Sensor Data (IoT)| B["Data Link (MQTT, 5G, etc.)"]
-    B -->|Real-Time State| C["Virtual Space (Simulation Model)"]
-    C -->|"What-if Analysis & Optimization"| D["Insights & Predictions"]
-    D -->|Control Commands & Decisions| B
-    B -->|Actuation| A
-
-    %% Subgraphs for clarity
-    subgraph "Real World"
-        A
-    end
-    subgraph "Digital World"
-        C
-        D
-    end
-
 
 !!! note "The Importance of the Two-Way Link"
     The data flow is not just from physical to virtual. A mature Digital Twin uses insights gained from the virtual model to send commands back to the physical asset, enabling remote control, optimization, and even autonomous operation.

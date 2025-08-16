@@ -68,6 +68,7 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite # Highlight code within text: `#!python var = 1`
+  - pymdownx.attr_list 
   - pymdownx.arithmatex: # For LaTeX mathematical notation
       generic: true
   - toc: # Table of Contents generation
@@ -118,5 +119,6 @@ nav:
     - 'Chapter 14: Architectures and Platforms': 'part5/chapter14.md'
     - 'Chapter 15: The Future of Simulation-Powered DTs': 'part5/chapter15.md'
   - 'Appendix':
+    - 'Course Syllabus & Outline': 'appendix/syllabus.md' 
     - 'Glossary': 'appendix/glossary.md'
     - 'Software Setup Guide': 'appendix/setup.md'
