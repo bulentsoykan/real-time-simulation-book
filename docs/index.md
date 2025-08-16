@@ -1,8 +1,8 @@
+<img src="assets/banner.png" alt="Course Banner" style="width:100%;">
+
 # Real-Time Simulation Modeling for Digital Twins
 
 Welcome to the online textbook for the graduate course on Real-Time Simulation Modeling for Digital Twins.
-
-<img src="assets/banner.png" alt="Course Banner" style="width:100%;">
 
 ---
 
